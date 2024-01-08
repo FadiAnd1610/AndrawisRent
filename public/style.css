@@ -1,0 +1,632 @@
+/* Start style*/
+* {
+  margin: 0;
+  padding: 0;
+  /*font-family: 'Libre Baskerville', serif;*/
+} body {
+  overflow-x: hidden;
+
+}
+
+/*Deatails componet style*/
+
+.car-deatail {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 250px;
+  margin-top: 40px;
+  text-align: start;
+}
+.b {
+  font-size: 20px;
+  color: darkblue;
+}
+.s {
+  font-size: 15px;
+}
+
+.car-icon {
+  fill: darkblue;
+  display: flex;
+  flex-direction: row;
+  margin-left: -28px;
+  margin-bottom: -24px;
+}
+
+.world-icon {
+  fill: darkblue;
+  display: flex;
+  flex-direction: row;
+  margin-left: -27px;
+  margin-bottom: -38px;
+}
+
+.clock-icon {
+  fill: darkblue;
+  display: flex;
+  flex-direction: row;
+  margin-left: -27px;
+  margin-bottom: -38px;
+}
+
+.phone-call button {
+  margin-bottom: 20px;
+  padding: 4px 8px;
+  border-radius: 30px;
+}
+.phone-call .move-phone {
+  padding-right: 1.5px;
+}
+
+/*Resetvation componet style*/
+
+.reservation {
+  background-color: rgba(0, 0, 0, 0.889);
+}
+
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 100%;
+  overflow: hidden;
+  margin-top: 30px;
+}
+
+.carImg1 {
+  width: 600px;
+  height: 650px;
+  object-fit: cover;
+  object-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  float: left;
+  margin-top: 0px;
+}
+
+.container h1 {
+  color: white;
+  margin-top: 20px;
+  margin-left: 400px;
+}
+.container p {
+  color: white;
+  margin-top: 100px;
+  margin-left: -400px;
+  margin-right: -300px;
+  font-size: large;
+}
+
+.information {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-left: 200px;
+}
+.information h1 {
+  margin-right: 200px;
+  margin-left: 150px;
+}
+.information p {
+  margin-left: 20px;
+  margin-right: 10px;
+  margin-top: 10px;
+  font-size: larger;
+}
+.container .carImg8 {
+  width: 100%;
+  height: 400px;
+  margin-top: 80px;
+  margin-bottom: 30px;
+}
+.scale-on-hover {
+    transition: transform 0.4s ease-in-out; /* Add a smooth transition effect on the transform property */
+  }
+  
+  /* Apply the scale transformation on hover */
+  .scale-on-hover:hover {
+    transform: translateX(-40px);
+  }
+
+  .scale-on-hover1 {
+    transition: transform 2.0s ease-in-out; /* Add a smooth transition effect on the transform property */
+  }
+  
+  /* Apply the scale transformation on hover */
+  .scale-on-hover1:hover {
+    transform: scale(1.1); 
+ }
+
+/*Card componet style*/
+
+.cards {
+  margin-top: -56px;
+}
+
+.size {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 47px;
+  margin-bottom: -55px;
+  padding-top: 20px;
+}
+
+.size h1 {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+
+.cards-1 .cards1-img {
+  width: 297px;
+  height: 230px;
+  margin-bottom: 10px;
+  margin-top: -20px;
+}
+.cards-1 {
+  width: 300px;
+  padding: 20px;
+  border: 1px solid #aea3a3;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin: 70px 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: gray;
+  color: white;
+}
+.cards-1 h2 {
+    color: #ecdfdf;
+}
+.cards-container {
+  display: flex;
+  align-items: center;
+  gap: 0px;
+  padding: 20px 0px;
+  background-color: rgb(48, 46, 46);
+}
+
+
+
+/*Vehicles componet style*/
+.heading {
+    text-align: center;
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+    font-size: 3.5rem;
+    color: rgb(69, 67, 67);
+}
+.heading span {
+    position: relative;
+}
+
+.box {
+    margin-top: -40px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.contant h3 {
+    margin-top: -90px;
+}
+.contant .btnnn {
+    background-color: rgb(51, 49, 49);
+    color: white;
+    border: 1px solid white;
+    padding: 5px 5px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.vehicles .vehicles-slider {
+    padding-bottom: 5rem;
+}
+.vehicles .vehicles-slider .box {
+    text-align: center;
+}
+.vehicles .vehicles-slider .box img {
+    width:650px;
+    height: 500px;
+    opacity: .5;
+    transform: scale(0.8);
+}
+
+
+
+.vehicles .vehicles-slider .box .contant {
+    transform: scale(0);
+    padding-top: 1rem;
+}
+.vehicles .vehicles-slider .swiper-slide-active img{
+  opacity: 1;
+  transform: scale(1);
+
+}
+
+.vehicles .vehicles-slider .swiper-slide-active .contant{
+  transform: scale(1);
+
+}
+.vehicles .vehicles-slider .box .contant h3 {
+    font-size: 2.5rem;
+    color: bla;
+}
+.vehicles .vehicles-slider .box .contant .price {
+    font-size: 2.5rem;
+    color: rgb(109, 105, 105);
+    padding: 1rem 0;
+    font-weight: bolder;
+    border-bottom: 1px solid rgb(96, 93, 93);
+}
+.vehicles .vehicles-slider .box .contant p {
+    font-size: 1.2rem;
+    color: rgb(2, 2, 2);
+    padding-top: 1.3rem;
+    border-top: black;
+}
+.vehicles .vehicles-slider .box .contant p span {
+    font-size: 0.8rem;
+    padding: 0 0.5rem;
+    font-weight: 0;    
+}
+
+.swiper {
+  width: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+  background: gray;
+}
+
+
+/* Choose car style*/
+.choose-car {
+  position: relative;
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+.choose-car .choose-car-img {
+  width: 100%;
+  height: 100vh;
+  opacity: 0.8;
+}
+.choose-car .choose-car-h1 {
+  position: absolute;
+  top: 15%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: #3f3939; 
+  font-size: 100px;
+}
+.choose-car .choose-car-p {
+  position: absolute;
+  top: 35%; 
+  left: 50%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color: #292323; 
+  font-size: 18px;
+  font-weight: bold;
+
+
+}
+.choose-car .choose-car-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 55%; 
+  left: 30%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color:rgb(23, 23, 23); 
+  margin-left: 240px;
+  font-weight: bold;
+
+}
+
+.choose-car .choose-car-cards  input {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-right: 10px;  
+  margin-left: 20px;
+}
+.choose-car .pick-up-car   {
+  margin-top: 110px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 110px; 
+  left: 25%; 
+  transform: translate(-50%, -50%); 
+  text-align: center; 
+  color:rgb(23, 23, 23); 
+  margin-left: 330px;
+}
+
+.choose-car .choose-car-p {
+  font-size: 20px;
+}
+
+.choose-car .choose-car-cards h6 {
+  font-size: 17px;
+  margin-left: 8px;
+
+}
+.choose-car .pick-up-car .info h5 {
+  color: rgb(0, 0, 0);
+padding-top: 90px;  
+font-size: 25px;
+font-weight: bolder;
+margin-left: 20px;
+}
+
+/*clients style*/
+
+.container-3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+}
+
+.clients {
+
+  margin: 50px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 300px;
+  height: 300px;
+  border: 3px solid black;
+  border-radius: 10px;
+  background-color: rgb(181, 172, 172);
+
+
+}
+.clients .client-1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  
+}
+.clients .client-1 .client-1-img{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70px;
+  width: 70px;
+  border: 2px solid black;
+  border-radius: 50px;
+}
+.clients .client-1 p {
+  margin-left: 20px;
+  margin-right: 10px;
+}
+
+.cc h2 {
+color:#292323;  
+margin-left: 45%;
+  margin-top: 5px;
+  margin-bottom: -10px;
+}
+
+
+
+/*Login styleeee*/
+.all-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;  
+  background-image: linear-gradient(79deg,#0b125a,rgb(62, 58, 58) 48% ,rgb(19, 6, 95) );
+  
+  color: white;
+}
+.auth-form-container , .login-form , .register-form {
+  display: flex;
+  flex-direction: column;
+  
+}
+.auth-form-container {
+  padding: 5rem;
+  border: 1px solid white;
+  border-radius: 15px;
+  margin: 1rem;
+}
+label {
+  text-align: left;
+  padding: 0.25rem 0;
+}
+.all-container input {
+  margin: 0.25rem 0;
+  border: none;
+  border-radius: 15px;
+  padding: 6px;
+}
+.all-container button{
+  border: none;
+  background-color: white;
+  border-radius: 15px;
+  color: #7439db;
+  padding: 5px;
+  margin-top: 5px;
+
+}
+.all-container .link-btn {
+  background: none;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+
+
+
+.icons-style svg {
+  margin: 0 10px; 
+}
+
+
+
+
+
+@media (min-width: 1872px) {
+  .car-deatail {
+    gap: 350px;
+  }
+  .cards-container {
+    gap: 175px;
+    padding: 20px 40px;
+  }
+}
+
+
+
+
+/*iphone*/
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 812px) 
+  and (-webkit-device-pixel-ratio: 3) {
+
+    /*סטייל ל3 כרטיסים המכילים מידע על האתק */
+    .cards-container {
+      margin-top: -10px;
+      flex-direction: column;
+      gap: 10px;
+    }
+    
+     /*סטייל המכיל מידע שאנשים כתבו עליי*/
+    .clients {
+      margin: 25px 20px;
+      width: 500px;
+      height: 420px;
+    }
+
+    .clients .client-1 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      color: white;
+      margin-bottom: -50px;
+      margin-top: -50px;
+      
+    }
+
+    .cc h2 {
+      color:#292323;  
+      margin-left: 45%;
+        margin-top: 15px;
+        margin-bottom: 5px;
+      }
+
+      .clients .client-1 .client-1-img{
+        margin-bottom: 15px;
+        margin-top: -30px;
+      }
+
+      .clients .client-1 p {
+       margin-bottom: 20px;
+      }
+
+       /*About section*/
+
+       .container {
+        flex-direction: column; 
+        gap: 20px; 
+        margin-right: 220px;
+      }
+    
+      .carImg1 {
+        width: 400px; /* Make the image take full width */
+        height: auto; /* Maintain aspect ratio */
+        margin-left: 250px;
+      }
+    
+      .information {
+        text-align: center; 
+      }
+    
+      .carImg8 {
+        width: 100%; /* Make the image take full width */
+        height: auto; /* Maintain aspect ratio */
+      }
+
+      .choose-car {
+        margin-top: -60px;
+        margin-bottom: -76px;
+        margin-left: -20px;
+      }
+
+      .choose-car {
+        padding: 20px;
+       
+      }
+      
+      .choose-car-h1 {
+        font-size: 24px;
+        margin-top: 10px;
+      }
+      
+      .choose-car-p {
+        font-size: 14px;
+      }
+      .choose-car .choose-car-cards {
+        font-size: 15px;
+      }
+      .choose-car .choose-car-card-1   {
+        margin-left: -250px;
+      }
+      .choose-car .choose-car-card-6   {
+        margin-bottom: 20px;
+      }
+      .choose-car .pick-up-car   {
+        margin-left: 70px;
+        margin-top: 150px;
+      }
+
+
+      /*מידע על פתיחת המקום*/
+.car-deatail {
+  gap: 90px;
+  
+}
+
+
+    
+  
+}
+
+
+
+
+
+
+
